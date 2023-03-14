@@ -1,0 +1,8 @@
+node_modules/
+.idea/
+.next/
+.idea
+*.log
+.DS_Store
+.env*
+.env.local
