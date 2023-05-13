@@ -7,9 +7,7 @@ function MainNavigation() {
     const [session, loading] = useSession();
     const logoutHandler = (e: React.MouseEvent) => {
         e.preventDefault();
-        signOut({
-            redirect: false,
-        });
+        signOut();
     };
     return (
         <header className={classes.header}>
